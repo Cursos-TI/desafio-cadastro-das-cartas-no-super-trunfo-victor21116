@@ -7,7 +7,8 @@
 //Teste larissa
 
 int main() {
-    printf("Ol\n");
+    printf("Olá+\n");
+    printf("Novo comit\n")
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
