@@ -14,7 +14,7 @@ int main (){
     scanf("%s", codigo01);
     printf("Nome da cidade: ");
     scanf("%s", cidade01);
-    printf("Qual o número da populção: ");
+    printf("Qual o número da população: ");
     scanf("%d", &populacao01);
     printf("Área em km²: ");
     scanf("%f", &area01);
@@ -31,7 +31,7 @@ int main (){
     scanf("%s", codigo02);
     printf("Nome da cidade: ");
     scanf("%s", cidade02);
-    printf("Qual o número da populção: ");
+    printf("Qual o número da população: ");
     scanf("%d", &populacao02);
     printf("Área em km²: ");
     scanf("%f", &area02);
