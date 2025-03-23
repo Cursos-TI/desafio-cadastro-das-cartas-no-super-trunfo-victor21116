@@ -52,12 +52,12 @@ int main (){
 
     printf("Informações da carta 01!!!\n");
     printf("Carta 01\n Estado: %s\n Código: %s\n Nome da cidade: %s\n", estado01, codigo01, cidade01);
-    printf("População: %d\n Área: %.2fkm²\n Pib: %f\n Pontos Turísticos: %d\n", populacao01,area01, pib01, pontoturistico01);
+    printf("População: %d\n Área: %.2fkm²\n Pib: %.2f\n Pontos Turísticos: %d\n", populacao01,area01, pib01, pontoturistico01);
     printf("A densidade populacional é de %.2f\n", densidade1);
 
     printf("Informações da carta 02!!!\n");
     printf("Carta 02\n Estado: %s\n Código: %s\n Nome da cidade: %s\n", estado02, codigo02, cidade02);
-    printf("População: %d\n Área: %.2fkm²\n Pib: %f\n Pontos Turísticos: %d\n", populacao02, area02, pib02, pontoturistico02);
+    printf("População: %d\n Área: %.2fkm²\n Pib: %.2f\n Pontos Turísticos: %d\n", populacao02, area02, pib02, pontoturistico02);
     printf("A densidade populacional é de %.2f\n", densidade2);
 
     return 0;
