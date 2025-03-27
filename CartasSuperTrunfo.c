@@ -13,6 +13,9 @@ int main (){
     //declarando as variáveis de comparação
     int vencePopulacao, venceArea, vencePib, vencePontosTuristicos, venceDensidade, vencePibPerCapita, venceSuperPoder;
 
+    unsigned long int ataque;
+
+
 
 
 //Ler os dados da carta 01
@@ -72,6 +75,9 @@ int main (){
     densidade2 = (float)populacao02 / area02;
     pibpercapita2 =  pib02 / (float)populacao02;
     superpoder1 = populacao01 + area01 + pib01 + pontoturistico01 + pibpercapita1 + (1.0 / densidade1);
+    superpoder2 = populacao02 + area02 + pib02 + pontoturistico02 + pibpercapita2 + (1.0 / densidade2);
+
+
     
 
     printf("Informações da carta 01!!!\n");
@@ -83,7 +89,7 @@ int main (){
     printf("Carta 02\n Estado: %s\n Código: %s\n Nome da cidade: %s\n", estado02, codigo02, cidade02);
     printf("População: %lu\n Área: %.2fkm²\n Pib: %.2f\n Pontos Turísticos: %d\n", populacao02, area02, pib02, pontoturistico02);
     printf("A densidade populacional é de %.2f\n", densidade2);
-    superpoder2 = populacao02 + area02 + pib02 + pontoturistico02 + pibpercapita2 + (1.0 / densidade2);
+
 
     //Realizando as comparações 
     vencePopulacao = populacao01 > populacao02;
@@ -104,6 +110,17 @@ int main (){
     printf("Menor densidade populacional: %d\n", venceDensidade);
     printf("Maior PIB per capita: %d\n", vencePibPerCapita);
     printf("Maior super poder: %d\n", venceSuperPoder);
+
+    printf("Comparação de Cartas(Atributo: População)\n");
+    // Utilizando if para comparação da Populacação entre as duas cartas 
+    
+    printf("Carta 1 %s: %lu\nCarta 2 %s: %lu\n", estado01, populacao01, estado02,populacao02);
+    if(populacao01 > populacao02){
+        printf("Resultado: Carta 1 %s Venceu!\n", estado01);
+        
+    }else{
+        printf("carta 2 %s Venceu!\n", estado02);
+    }
 
     return 0;
 
